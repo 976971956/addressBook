@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE48999F1E1279A500713319 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE48999E1E1279A500713319 /* main.m */; };
+		EE4899A21E1279A500713319 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4899A11E1279A500713319 /* AppDelegate.m */; };
+		EE4899A51E1279A500713319 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4899A41E1279A500713319 /* ViewController.m */; };
+		EE4899A81E1279A500713319 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4899A61E1279A500713319 /* Main.storyboard */; };
+		EE4899AA1E1279A500713319 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4899A91E1279A500713319 /* Assets.xcassets */; };
+		EE4899AD1E1279A500713319 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4899AB1E1279A500713319 /* LaunchScreen.storyboard */; };
+		EE4899B81E1279A600713319 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4899B71E1279A600713319 /* _____Tests.m */; };
+		EE4899C31E1279A600713319 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4899C21E1279A600713319 /* _____UITests.m */; };
+		EE4899D21E127F7600713319 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4899D11E127F7600713319 /* AddressBook.framework */; };
+		EE4899D41E127F7D00713319 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4899D31E127F7D00713319 /* AddressBookUI.framework */; };
+		EE4899D71E13C1C900713319 /* AddressHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4899D61E13C1C900713319 /* AddressHandle.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE4899B41E1279A600713319 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE4899921E1279A500713319 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE4899991E1279A500713319;
+			remoteInfo = "通讯录操作";
+		};
+		EE4899BF1E1279A600713319 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE4899921E1279A500713319 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE4899991E1279A500713319;
+			remoteInfo = "通讯录操作";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE48999A1E1279A500713319 /* 通讯录操作.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "通讯录操作.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE48999E1E1279A500713319 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE4899A01E1279A500713319 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE4899A11E1279A500713319 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE4899A31E1279A500713319 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE4899A41E1279A500713319 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE4899A71E1279A500713319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE4899A91E1279A500713319 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE4899AC1E1279A500713319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE4899AE1E1279A500713319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4899B31E1279A600713319 /* 通讯录操作Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "通讯录操作Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4899B71E1279A600713319 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		EE4899B91E1279A600713319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4899BE1E1279A600713319 /* 通讯录操作UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "通讯录操作UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4899C21E1279A600713319 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		EE4899C41E1279A600713319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4899D11E127F7600713319 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		EE4899D31E127F7D00713319 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		EE4899D51E13C1C900713319 /* AddressHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressHandle.h; sourceTree = "<group>"; };
+		EE4899D61E13C1C900713319 /* AddressHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressHandle.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE4899971E1279A500713319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4899D41E127F7D00713319 /* AddressBookUI.framework in Frameworks */,
+				EE4899D21E127F7600713319 /* AddressBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4899B01E1279A600713319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4899BB1E1279A600713319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE4899911E1279A500713319 = {
+			isa = PBXGroup;
+			children = (
+				EE48999C1E1279A500713319 /* 通讯录操作 */,
+				EE4899B61E1279A600713319 /* 通讯录操作Tests */,
+				EE4899C11E1279A600713319 /* 通讯录操作UITests */,
+				EE48999B1E1279A500713319 /* Products */,
+				EE4899D01E127F7600713319 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE48999B1E1279A500713319 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE48999A1E1279A500713319 /* 通讯录操作.app */,
+				EE4899B31E1279A600713319 /* 通讯录操作Tests.xctest */,
+				EE4899BE1E1279A600713319 /* 通讯录操作UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE48999C1E1279A500713319 /* 通讯录操作 */ = {
+			isa = PBXGroup;
+			children = (
+				EE4899A01E1279A500713319 /* AppDelegate.h */,
+				EE4899A11E1279A500713319 /* AppDelegate.m */,
+				EE4899A31E1279A500713319 /* ViewController.h */,
+				EE4899A41E1279A500713319 /* ViewController.m */,
+				EE4899D51E13C1C900713319 /* AddressHandle.h */,
+				EE4899D61E13C1C900713319 /* AddressHandle.m */,
+				EE4899A61E1279A500713319 /* Main.storyboard */,
+				EE4899A91E1279A500713319 /* Assets.xcassets */,
+				EE4899AB1E1279A500713319 /* LaunchScreen.storyboard */,
+				EE4899AE1E1279A500713319 /* Info.plist */,
+				EE48999D1E1279A500713319 /* Supporting Files */,
+			);
+			path = "通讯录操作";
+			sourceTree = "<group>";
+		};
+		EE48999D1E1279A500713319 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE48999E1E1279A500713319 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE4899B61E1279A600713319 /* 通讯录操作Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EE4899B71E1279A600713319 /* _____Tests.m */,
+				EE4899B91E1279A600713319 /* Info.plist */,
+			);
+			path = "通讯录操作Tests";
+			sourceTree = "<group>";
+		};
+		EE4899C11E1279A600713319 /* 通讯录操作UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE4899C21E1279A600713319 /* _____UITests.m */,
+				EE4899C41E1279A600713319 /* Info.plist */,
+			);
+			path = "通讯录操作UITests";
+			sourceTree = "<group>";
+		};
+		EE4899D01E127F7600713319 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE4899D31E127F7D00713319 /* AddressBookUI.framework */,
+				EE4899D11E127F7600713319 /* AddressBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE4899991E1279A500713319 /* 通讯录操作 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4899C71E1279A600713319 /* Build configuration list for PBXNativeTarget "通讯录操作" */;
+			buildPhases = (
+				EE4899961E1279A500713319 /* Sources */,
+				EE4899971E1279A500713319 /* Frameworks */,
+				EE4899981E1279A500713319 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "通讯录操作";
+			productName = "通讯录操作";
+			productReference = EE48999A1E1279A500713319 /* 通讯录操作.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE4899B21E1279A600713319 /* 通讯录操作Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4899CA1E1279A600713319 /* Build configuration list for PBXNativeTarget "通讯录操作Tests" */;
+			buildPhases = (
+				EE4899AF1E1279A600713319 /* Sources */,
+				EE4899B01E1279A600713319 /* Frameworks */,
+				EE4899B11E1279A600713319 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE4899B51E1279A600713319 /* PBXTargetDependency */,
+			);
+			name = "通讯录操作Tests";
+			productName = "通讯录操作Tests";
+			productReference = EE4899B31E1279A600713319 /* 通讯录操作Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE4899BD1E1279A600713319 /* 通讯录操作UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4899CD1E1279A600713319 /* Build configuration list for PBXNativeTarget "通讯录操作UITests" */;
+			buildPhases = (
+				EE4899BA1E1279A600713319 /* Sources */,
+				EE4899BB1E1279A600713319 /* Frameworks */,
+				EE4899BC1E1279A600713319 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE4899C01E1279A600713319 /* PBXTargetDependency */,
+			);
+			name = "通讯录操作UITests";
+			productName = "通讯录操作UITests";
+			productReference = EE4899BE1E1279A600713319 /* 通讯录操作UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE4899921E1279A500713319 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = liyijia;
+				TargetAttributes = {
+					EE4899991E1279A500713319 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = CG97ZKD4F6;
+						ProvisioningStyle = Automatic;
+					};
+					EE4899B21E1279A600713319 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE4899991E1279A500713319;
+					};
+					EE4899BD1E1279A600713319 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE4899991E1279A500713319;
+					};
+				};
+			};
+			buildConfigurationList = EE4899951E1279A500713319 /* Build configuration list for PBXProject "通讯录操作" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE4899911E1279A500713319;
+			productRefGroup = EE48999B1E1279A500713319 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE4899991E1279A500713319 /* 通讯录操作 */,
+				EE4899B21E1279A600713319 /* 通讯录操作Tests */,
+				EE4899BD1E1279A600713319 /* 通讯录操作UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE4899981E1279A500713319 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4899AD1E1279A500713319 /* LaunchScreen.storyboard in Resources */,
+				EE4899AA1E1279A500713319 /* Assets.xcassets in Resources */,
+				EE4899A81E1279A500713319 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4899B11E1279A600713319 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4899BC1E1279A600713319 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE4899961E1279A500713319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4899D71E13C1C900713319 /* AddressHandle.m in Sources */,
+				EE4899A51E1279A500713319 /* ViewController.m in Sources */,
+				EE4899A21E1279A500713319 /* AppDelegate.m in Sources */,
+				EE48999F1E1279A500713319 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4899AF1E1279A600713319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4899B81E1279A600713319 /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4899BA1E1279A600713319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4899C31E1279A600713319 /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE4899B51E1279A600713319 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE4899991E1279A500713319 /* 通讯录操作 */;
+			targetProxy = EE4899B41E1279A600713319 /* PBXContainerItemProxy */;
+		};
+		EE4899C01E1279A600713319 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE4899991E1279A500713319 /* 通讯录操作 */;
+			targetProxy = EE4899BF1E1279A600713319 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE4899A61E1279A500713319 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4899A71E1279A500713319 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE4899AB1E1279A500713319 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4899AC1E1279A500713319 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE4899C51E1279A600713319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE4899C61E1279A600713319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE4899C81E1279A600713319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CG97ZKD4F6;
+				INFOPLIST_FILE = "通讯录操作/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liyijia.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE4899C91E1279A600713319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CG97ZKD4F6;
+				INFOPLIST_FILE = "通讯录操作/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liyijia.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE4899CB1E1279A600713319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "通讯录操作Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liyijia.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/通讯录操作.app/通讯录操作";
+			};
+			name = Debug;
+		};
+		EE4899CC1E1279A600713319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "通讯录操作Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liyijia.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/通讯录操作.app/通讯录操作";
+			};
+			name = Release;
+		};
+		EE4899CE1E1279A600713319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "通讯录操作UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liyijia.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "通讯录操作";
+			};
+			name = Debug;
+		};
+		EE4899CF1E1279A600713319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "通讯录操作UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "liyijia.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "通讯录操作";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE4899951E1279A500713319 /* Build configuration list for PBXProject "通讯录操作" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4899C51E1279A600713319 /* Debug */,
+				EE4899C61E1279A600713319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE4899C71E1279A600713319 /* Build configuration list for PBXNativeTarget "通讯录操作" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4899C81E1279A600713319 /* Debug */,
+				EE4899C91E1279A600713319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE4899CA1E1279A600713319 /* Build configuration list for PBXNativeTarget "通讯录操作Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4899CB1E1279A600713319 /* Debug */,
+				EE4899CC1E1279A600713319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE4899CD1E1279A600713319 /* Build configuration list for PBXNativeTarget "通讯录操作UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4899CE1E1279A600713319 /* Debug */,
+				EE4899CF1E1279A600713319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE4899921E1279A500713319 /* Project object */;
+}
