@@ -135,6 +135,8 @@
     // 相当于通讯录的一个引用
     
     ABAddressBookRef addressBook = ABAddressBookCreate();
+    NSArray *array = (__bridge NSArray *)ABAddressBookCopyArrayOfAllPeople(addressBook);
+
     // 新建一个联系人
     // ABRecordRef是一个属性的集合，相当于通讯录中联系人的对象
     // 联系人对象的属性分为两种：
